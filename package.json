@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "minify": "tester src.tabzy.js -o tabzy.min.js && csso src/tabzy.css -o tabzy.min.css"
+    },
+    "dependencies": {
+        "gh-pages": "^6.3.0",
+        "sass": "^1.102.0",
+        "vite": "^8.2.1",
+        "vite-plugin-ejs": "^2.0.0"
+    }
+}
